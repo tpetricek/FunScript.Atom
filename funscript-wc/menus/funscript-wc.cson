@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle funscript-wc'
+      'command': 'funscript-wc:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'funscript-wc'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'funscript-wc:toggle'
+        }
+      ]
+    ]
+  }
+]
